@@ -1,4 +1,4 @@
-# ignore all .png in the directory because .png is not the part of my work
+# ignore all .jpg in the directory because .jpg is not the part of my work
 *.png
 # ignore the backup file because I want to backup the original file and don't want
 # git to track
