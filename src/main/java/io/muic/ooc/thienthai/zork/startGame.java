@@ -819,11 +819,7 @@ class Map{
                 insideStatus = Boolean.FALSE;
             }
             if(read.nextLine().toLowerCase().equals("yes")){
-                if(insideStatus == Boolean.FALSE){
-                    System.out.println("you: Im going out");
-                }else{
-                    System.out.println("you: Im come in");
-                }
+                System.out.println("### You already pass through door ###");
                 System.out.println("========================================");
                 if(token.toLowerCase().equals("up")){
                     posOb.setX(posOb.getX()-1);
